@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+
+		.peach{
+			width:100px;
+			height:100px;
+			background-size:contain;
+			background-image:url(peach.jpg);
+			background-repeat:no-repeat;
+			display:inline-block;
+		}
+	</style>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+
+
+	document.addEventListener("click")
+
+	function makePeach (event) {
+		var peach = document.createElement('div')
+		document.body.appendChild(peach)
+		peach.classList.add('peach');
+
+
+	}
+
+	document.addEventListener("keypress", makePeach)
+</script>
+
+</body>
+</html>

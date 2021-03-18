@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		.freds{
+			width:50px;
+			height:50px;
+			background-size:contain;
+			background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kC5RLjYT45z1s04u6HaRYTdFK_2YA_kw5A&usqp=CAU);
+			background-repeat:no-repeat;
+			display:inline-block;
+			position:absolute;
+		}
+	</style>
+</head>
+<body>
+
+
+
+
+<script type="text/javascript">
+	
+	
+
+	document.addEventListener("click", 
+
+		function makeMango (event) {
+			console.log(event);
+		var cat = document.createElement('div');
+		document.body.appendChild(cat);
+		cat.classList.add('freds');
+
+		cat.style.left = event.clientX - 25+'px';
+		cat.style.top = event.clientY - 25 +'px';
+
+	} // end of function i am giving the event listener//
+
+
+		) //end of event listener
+</script>
+
+</body>
+</html>

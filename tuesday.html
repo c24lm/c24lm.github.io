@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+
+
+	</style>
+</head>
+<body>
+
+
+ <script type="text/javascript">
+
+function makeFlower () {
+var flower = document.createElement('div');
+
+document.body.appendChild(flower);
+
+flower.style.width = "300px";
+flower.style.height = "300px";
+flower.style.backgroundSize="contain";
+flower.style.backgroundImage="url(flower.gif)";
+flower.style.backgroundRepeat= "no-repeat";
+flower.style.display = 'inline-block';
+
+
+}
+
+setInterval(makeFlower, 1000)
+
+</script>
+</body>
+</html>
