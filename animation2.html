@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style type="text/css">
+    .hearts {
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        background-size: contain;
+        background-image: url(http://www.clker.com/cliparts/G/H/o/5/0/X/tiny-heart.svg);
+
+        animation-name: floating;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    .horses{
+
+    	background-image:url(https://i.gifer.com/1pLi.gif);
+    	background-size:contain;
+    	 position: relative;
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        animation-name:run;
+        animation-duration:5s;
+        animation-iteration-count: infinite
+    }
+    @keyframes floating {
+        0% {
+            transform: rotate(0deg);
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png);
+        }
+
+        25% {
+            transform: rotate(-45deg);
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png);
+        }
+
+        50% {
+            transform: rotate(0deg);
+
+            background-image: url(https://media0.giphy.com/media/dZLKaImwWkc12rzEoO/giphy.gif);
+        }
+
+        75% {
+            transform: rotate(45deg);
+            background-image: url(https://media0.giphy.com/media/dZLKaImwWkc12rzEoO/giphy.gif);
+        }
+
+        100% {
+            transform: rotate(0deg);
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png);
+        }
+    }

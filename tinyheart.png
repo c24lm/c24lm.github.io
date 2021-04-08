@@ -1,0 +1,27 @@
+<?xml version="1.0"?><svg width="533.3333333333333" height="533.3333333333333" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>tiny heart</title>
+ <defs>
+  <linearGradient id="linearGradient1093">
+   <stop stop-color="#ffffe8" stop-opacity="0.65" offset="0" id="stop1094"/>
+   <stop stop-color="#ffffff" stop-opacity="0" offset="1" id="stop1095"/>
+  </linearGradient>
+  <linearGradient xlink:href="#linearGradient1093" id="linearGradient1096"/>
+  <linearGradient xlink:href="#linearGradient1093" id="linearGradient1097"/>
+  <linearGradient id="svg_1">
+   <stop offset="0" stop-color="#bf0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="svg_2">
+   <stop offset="0" stop-opacity="0.992188" stop-color="#b26060"/>
+   <stop offset="1" stop-color="#7f0000"/>
+  </linearGradient>
+  <linearGradient id="svg_3">
+   <stop offset="0" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#b56c6c"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path fill="#7f0000" fill-rule="evenodd" stroke="#7f0000" stroke-width="10" stroke-linejoin="round" id="path737" d="m298.736908,449c-1.27652,-0.547974 -38.337311,-49.259003 -23.0578,-57.891998c12.529205,-3.572998 20.071503,22.334991 21.904999,28.884003c1.527985,-6.251007 11.014893,-33.253998 21.5578,-29.384003c15.075684,5.506989 -19.12851,58.939972 -20.404999,58.391998z"/>
+ </g>
+</svg>

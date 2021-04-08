@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style type="text/css">
+        #cat2{background-image:url(https://media1.giphy.com/media/S60EHwF92XDWDFeRmT/giphy.gif);
+
+
+        }
+
+        #cat1{background-image:url(https://i.gifer.com/1pLi.gif)
+            ;
+
+        }
+
+        #cat3{background-image:url(https://i.pinimg.com/originals/44/a8/da/44a8dabf0e4bf6e2616cd0f6d0ce5912.gif);
+        }
+
+    	.cats{
+    		width:400px;
+    		height:400px;
+            background-repeat:no-repeat;
+    		background-size:contain;
+    		animation-name:walking;
+    		animation-duration:0s;
+    		animation-iteration-count: infinite;
+    		position: relative;
+        display: inline-block;
+        transform:rotate(7deg);
+    	}
+
+    	@keyframes walking{
+    		0%{
+    			left:0px;
+    		}
+
+
+    		100% {
+    			left:500px;
+    		}
+    	}
+    </style>
+</head>
+
+<body>
+
+    	
+    
+    <div class="cats" id="cat1"></div>
+     <div class="cats" id="cat2"></div>
+       <div class="cats" id="cat3"></div>
+    
+</body>
+
+</html>
