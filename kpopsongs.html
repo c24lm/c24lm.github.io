@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<style type="text/css">
+
+#kpop{
+width:200px;
+height:200px;
+
+background-size:contain;
+background-repeat: no-repeat;
+
+}
+
+#songs{
+	width:500px
+	height:500px
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-image: url(https://i.pinimg.com/originals/b0/34/67/b034672ce5fa2f109d0becbef7acc374.png);
+}
+</style>
+</head>
+<body>
+
+<div id="songs">
+
+</div>
+<center>
+
+<h1>my favorite members of twice (click!)</h1>
+
+<div id="kpop">
+
+</div>
+</center>
+
+<script type="text/javascript">
+
+
+
+//Math.random() is a function that already exists in javascript that generates random number between 0 and 1//
+
+var momo = ["white", "white", "white", "white", "white", "white", "white", "white"]
+
+var images = ["url(file:///Users/student/Desktop/repositories/c24lm.github.io/sana1.png)", 
+
+"url(file:///Users/student/Desktop/repositories/c24lm.github.io/momo1.png)", 
+
+"url(file:///Users/student/Desktop/repositories/c24lm.github.io/momo2.png)", 
+
+"url(file:///Users/student/Desktop/repositories/c24lm.github.io/momoxsana.png)",
+
+"url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_3648.JPG)", 
+
+"url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_3647.JPG)", 
+
+"url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_3646.JPG)", 
+
+"url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_3645.JPG)",
+
+"url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_3644.JPG)",
+
+"url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_3643.JPG)",
+
+"url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_3642.JPG)",
+
+"url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_3641.JPG)",
+
+"url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_3640.JPG)",
+]
+var box = document.getElementById('kpop');
+
+box.addEventListener("click", function(){
+
+var cat = Math.floor(Math.random()*13);
+
+console.log(momo[cat])
+
+box.style.backgroundImage = images[cat];
+
+box.style.backgroundColor = momo[cat];
+
+
+})
+
+
+</script>
+
+</body>
+</html>

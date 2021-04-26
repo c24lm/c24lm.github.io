@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+
+.square {
+	background-size: contain;
+	position: absolute;
+	display: inline-block;
+	background-position: center;
+	width: 100px;
+	height: 100px;
+
+	margin:10px;
+	background-image: url(momo1.png);
+	background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+
+	
+	<div id="cat" class="square"></div>
+
+	<script type="text/javascript">
+ 
+		var momo = document.getElementById("alfred");
+
+		document.addEventListener("click", function (event){
+		// console.log(event);
+		console.log(event.clientX, event. clientY);
+		bird.style.left- event.clientX-50+"px";
+		bird.style.top= event.clientY-50+"px";
+	} )
+
+	</script>
+</body>
+</html>
