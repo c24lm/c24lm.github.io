@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<style type="text/css">
+
+#kpop{
+width:400px;
+height:400px;
+
+background-size:contain;
+background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+
+<center>
+
+<h1>click to see twixie (my cat)</h1>
+
+<div id="kpop">
+
+</div>
+</center>
+
+<script type="text/javascript">
+
+
+
+//Math.random() is a function that already exists in javascript that generates random number between 0 and 1//
+
+var colors = ["white", "white", "white", "white", "white", "white", "white", "white", "white",]
+
+var images = ["url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_4027.jpeg)", 
+
+"url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_4028.jpeg)", 
+
+"url(file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_4030.jpeg)", 
+
+"url(file:///file:///var/folders/mr/sj8z14x5223frldxclspbyb80000gp/T/com.apple.iChat/Messages/Transfers/IMG_4029.jpeg)",
+
+"url(file:///Users/student/Desktop/repositories/c24lm.github.io/momoxsana.png)" 
+]
+var box = document.getElementById('kpop');
+
+box.addEventListener("click", function(){
+
+var momo = Math.floor(Math.random()*4);
+
+console.log(colors[momo])
+
+box.style.backgroundImage = images[momo];
+
+box.style.backgroundColor = colors[momo];
+
+
+})
+
+
+</script>
+
+</body>
+</html>

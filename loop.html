@@ -9,15 +9,15 @@
 	position: relative;
 	display: inline-block;
 	background-position: center;
-	width: 200px;
-	height: 200px;
+	width: 600px;
+	height: 600px;
 
 	/* background-color:gainsboro;
 
 	*/
 
 	margin:10px;
-	background-image: url(https://kbizoom.com/wp-content/uploads/2021/02/Momo-Twice-sexy-in-the-new-dance-video-1.gif);
+	background-image: url(flowerborder.png);
 	background-repeat: no-repeat;
 }
 </style>
@@ -25,42 +25,7 @@
 <body>
 
 	
-	<div id="cat" class="square"></div>
+	
 
-	<script type="text/javascript">
-	// var momo = document.getElementById("cat");
-
-		function makeMomo (){
-			var mo = document.createElement('div');
-			document.body.appendChild(mo);
-			mo.classList.add('square');
-
-			document.addEventListener("click", function (event){
-		// console.log(event);
-		console.log(event.clientX, event. clientY);
-		mo.style.left = event.clientX- 50 +"px";
-		mo.style.top = event.clientY- 50 +"px";
-		})
-
-		};
-
-
-
-		for (var i=0;i<1000; i=i+1 ) {
-			makeMomo()
-		}
-
-
- 
-
-
-	document.addEventListener("click", function (event){
-		// console.log(event);
-		console.log(event.clientX, event. clientY);
-		momo.style.left = event.clientX- 50 +"px";
-		momo.style.top = event.clientY- 50 +"px";
-	} )
-
-	</script>
 </body>
 </html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<style type="text/css">
+
+#border{
+width:700px;
+height:700px;
+background-size:contain;
+background-repeat: no-repeat;
+background-image: url(flowerborder.png);
+
+}
+
+#cat{
+	l
+
+</style>
+</head>
+<body>
+
+<center>
+
+<h1>Happy Mother's Day!</h1>
+
+
+
+
+
+<div id="kpop">
+
+</div>
+</center>
+
+<script type="text/javascript">
+
+
+
+//Math.random() is a function that already exists in javascript that generates random number between 0 and 1//
+
+var cores = ["white"]
+
+var images = ["url(file:///Users/student/Desktop/repositories/c24lm.github.io/flowerborder.png)", 
+
+
+]
+var box = document.getElementById('kpop');
+
+box.addEventListener("click", function(){
+
+var cat = Math.floor(Math.random()*13);
+
+console.log(cores[cat])
+
+box.style.backgroundImage = images[cat];
+
+box.style.backgroundColor = cores[cat];
+
+
+})
+
+
+</script>
+
+</body>
+</html>

@@ -6,13 +6,12 @@
 <style type="text/css">
 
 #kpop{
-width:300px;
-height:300px;
+width:500px;
+height:500px;
+
 background-size:contain;
 background-repeat: no-repeat;
 }
-
-
 </style>
 </head>
 <body>
@@ -32,30 +31,27 @@ background-repeat: no-repeat;
 
 //Math.random() is a function that already exists in javascript that generates random number between 0 and 1//
 
-var cores = ["white", "white", "white", "white", "white"]
+var colors = ["white", "white", "white", "white", "white", "white", "white", "white"]
 
-var images = ["url(file:///Users/student/Desktop/repositories/c24lm.github.io/sana1.png)", 
+var images = ["url(file:///Users/student/Desktop/repositories/c24lm.github.io/sana2.png)", 
+
+"url(file:///Users/student/Desktop/repositories/c24lm.github.io/sana1.png)", 
 
 "url(file:///Users/student/Desktop/repositories/c24lm.github.io/momo1.png)", 
 
 "url(file:///Users/student/Desktop/repositories/c24lm.github.io/momo2.png)", 
-
-"url(file:///Users/student/Desktop/repositories/c24lm.github.io/momoxsana.png)",
-
-"url(file:///Users/student/Desktop/repositories/c24lm.github.io/sana2.png)", 
-
-
+]
 var box = document.getElementById('kpop');
 
 box.addEventListener("click", function(){
 
-var cat = Math.floor(Math.random()*5);
+var cat = Math.floor(Math.random()*4);
 
-console.log(cores[cat])
+console.log(colors[cat])
 
-box.style.backgroundImage = images[cat];
+box.style.backgroundImage = kpop[cat];
 
-box.style.backgroundColor = cores[cat];
+box.style.backgroundColor = colors[cat];
 
 
 })
