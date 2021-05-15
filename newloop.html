@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+
+		#cookie{
+			width:100px;
+			height:100px;
+			background-image:url(lo.png);
+			background-size:contain;
+			background-repeat: no-repeat;
+			display: inline-block;
+			width: 200px;
+			height: 200px;
+			background-image:url(https://i.pinimg.com/474x/25/18/58/2518586755fdee5a82ddf2c0c43111c1.jpg) */
+
+
+	</style>
+</head>
+<body style="background-color:white;">
+
+
+	<div id= "cookie"></div>
+
+	<script type="text/javascript">
+		
+		
+
+var time = 0;
+		function recipe () {
+			time = time + 1;
+
+
+
+		var cookie = document.createElement('div');
+		document.body.appendChild(cookie);
+
+		cookie.style.width = "100px";
+		cookie.style.height = "100px";
+		cookie.style.backgroundImage = "url(https://i.pinimg.com/474x/25/18/58/2518586755fdee5a82ddf2c0c43111c1.jpg)";
+
+
+		cookie.style.backgroundSize = "contain";
+		cookie.style.backgroundRepeat="no-repeat";
+		cookie.style.position = "relative";
+		cookie.style.display = "inline-block";
+		cookie.innerText = time;
+
+			}
+
+document.addEventListener("click", recipe);
+
+			// setInterval(recipe, 1000)
+
+	</script>
+
+</body>
+</html>

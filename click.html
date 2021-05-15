@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo:wght@600&display=swap" rel="stylesheet">
+
+
+	<title>peach generator</title>
+
+	<style>
+body {
+  background-color: white;
+}
+</style> 
+
+
+
+
+	<style type="text/css">
+		
+		.title{
+  			font-family: 'KoHo', sans-serif;
+  			font-size: 40px;
+  			color: black;
+  			text-align: center;
+		}
+
+
+		.momos{
+			width:150px;
+			height:150px;
+			background-size:contain;
+			background-image:url(https://media1.thehungryjpeg.com/thumbs2/ori_3452001_0beeab6bd4eec931e9f7b2bcdffcac1d57151567_watercolor-peach-new.jpg);
+			background-repeat:no-repeat;
+			display:inline-block;
+			position:absolute;
+		}
+
+
+	</style>
+</head>
+	<div class="title">click to place peaches!</div>
+
+				<br>
+
+
+
+<body>
+
+
+
+
+<script type="text/javascript">
+	
+	
+
+	document.addEventListener("click", 
+
+		function makePeach (event) {
+			console.log(event);
+		var cat = document.createElement('div');
+		document.body.appendChild(cat);
+		cat.classList.add('momos');
+
+		cat.style.left = event.clientX - 25+'px';
+		cat.style.top = event.clientY - 25 +'px';
+
+	} 
+
+
+		) 
+</script>
+
+</body>
+</html>
