@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<style type="text/css">
+
+#kpop{
+width:500px;
+height:500px;
+background-size:contain;
+background-repeat: no-repeat;
+}
+
+
+</style>
+</head>
+<body>
+
+<center>
+
+<h1>click to see pictures of my cat!</h1>
+
+<div id="kpop">
+
+</div>
+</center>
+
+<script type="text/javascript">
+
+
+
+//Math.random() is a function that already exists in javascript that generates random number between 0 and 1//
+
+var cores = ["white", "white", "white", "white", "white","white","white"]
+
+var images = ["url(cat1.jpeg)", 
+
+"url(cat2.jpeg)", 
+
+"url(cat3.jpeg)", 
+
+"url(cat4.jpeg)",
+
+"url(cat5.jpeg)",
+
+"url(cat6.jpeg",
+
+"url(cat7.jpeg", 
+]
+
+var box = document.getElementById('kpop');
+
+box.addEventListener("click", function(){
+
+var cat = Math.floor(Math.random()*5);
+
+console.log(cores[cat])
+
+box.style.backgroundImage = images[cat];
+
+box.style.backgroundColor = cores[cat];
+
+
+})
+
+
+</script>
+
+</body>
+</html>
